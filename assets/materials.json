@@ -1,0 +1,34 @@
+[
+  {
+    "title": "1. előadás – Alapfogalmak",
+    "subject": "Villamosságtan",
+    "type": "jegyzet",
+    "semester": "2026/27 ősz",
+    "desc": "Áram, feszültség, ellenállás alapjai, Ohm-törvény levezetéssel.",
+    "file": "files/villamossagtan_01_jegyzet.pdf"
+  },
+  {
+    "title": "Hálózatok elemzése – zárthelyi felkészítő",
+    "subject": "Villamosságtan",
+    "type": "vizsgaanyag",
+    "semester": "2026/27 ősz",
+    "desc": "Csomóponti és hurokegyenletek, példákkal.",
+    "file": "files/halozatok_zh_felkeszito.pdf"
+  },
+  {
+    "title": "Digitális technika – kombinációs hálózatok",
+    "subject": "Digitális technika",
+    "type": "prezentáció",
+    "semester": "2025/26 tavasz",
+    "desc": "Logikai kapuk, Karnaugh-tábla, minimalizálás.",
+    "file": "files/digitalis_kombinacio.pptx"
+  },
+  {
+    "title": "Programozás alapjai – Python jegyzet",
+    "subject": "Programozás",
+    "type": "jegyzet",
+    "semester": "2025/26 tavasz",
+    "desc": "Vezérlési szerkezetek, függvények, listák.",
+    "file": "files/python_alapok.pdf"
+  }
+]

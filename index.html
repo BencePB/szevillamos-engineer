@@ -1,43 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>szevillamos.engineer</title>
-<style>
-  html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
-    color: #ffffff;
-    font-family: 'Segoe UI', Arial, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  .card {
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    border-radius: 16px;
-    padding: 48px 64px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
-  }
-  h1 {
-    font-size: 2.5rem;
-    margin-bottom: 12px;
-  }
-  p {
-    font-size: 1.1rem;
-    opacity: 0.85;
-  }
-</style>
+<title>SZE Villamos &ndash; Jegyzetek és tananyagok</title>
+<meta name="description" content="Villamosmérnök hallgatói jegyzetek, prezentációk és tananyagok gyűjteménye, szabadon elérhetően mindenki számára.">
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <div class="card">
-    <h1>szevillamos.engineer</h1>
-    <p>Site is live. More coming soon.</p>
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">sze<span>villamos</span><span class="dot">.engineer</span></a>
+    <nav>
+      <a href="index.html" class="active">Kezdőlap</a>
+      <a href="jegyzetek.html">Jegyzetek</a>
+      <a href="#rolam">Rólam</a>
+    </nav>
   </div>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <p class="eyebrow">Nem hivatalos hallgatói kezdeményezés</p>
+    <h1>Villamosmérnöki jegyzetek, közösen.</h1>
+    <p class="lead">
+      Ezen az oldalon a saját jegyzeteimet, prezentációimat és a Moodle-ról
+      összegyűjtött anyagaimat osztom meg &mdash; ingyen, bejelentkezés nélkül,
+      bárki számára. A cél, hogy a tananyagok könnyen kereshetők és
+      újrafelhasználhatók legyenek, ne csak nálam heverjenek egy mappában.
+    </p>
+    <div class="cta-row">
+      <a href="jegyzetek.html" class="btn btn-primary">Jegyzetek böngészése</a>
+      <a href="https://github.com/BencePB/szevillamos-engineer" class="btn btn-ghost">Forrás GitHubon</a>
+    </div>
+  </section>
+
+  <section class="wrap features">
+    <div class="feature">
+      <h3>01 &mdash; Kereshető</h3>
+      <p>Minden anyag tárgy, típus (jegyzet, prezentáció, vizsgaanyag) és
+      félév szerint szűrhető, hogy gyorsan megtald amit keresel.</p>
+    </div>
+    <div class="feature">
+      <h3>02 &mdash; Nyílt</h3>
+      <p>Nincs regisztráció, nincs fizetős tartalom. Az anyagok a GitHub
+      repóban vannak, bárki letöltheti vagy javaslatot tehet hozzájuk.</p>
+    </div>
+    <div class="feature">
+      <h3>03 &mdash; Bővülő</h3>
+      <p>Folyamatosan töltök fel új jegyzeteket és bemutatókat a féléveim
+      előrehaladtával &mdash; érdemes időnként visszanézni.</p>
+    </div>
+  </section>
+
+  <section class="wrap disclaimer" id="rolam">
+    <h2>Rólam &amp; a projektről</h2>
+    <p>
+      Villamosmérnök hallgató vagyok Győrben. Ez egy saját, nem hivatalos
+      projekt &mdash; nem áll kapcsolatban a Széchenyi István Egyetemmel,
+      a tartalomért kizárólag én felelek. Ha egy anyagban hibát találsz,
+      vagy szeretnél te is hozzájárulni, nyiss egy issue-t vagy pull
+      requestet a GitHub repóban.
+    </p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; 2026 szevillamos.engineer</span>
+    <span>Nem hivatalos, a Széchenyi István Egyetemtől független oldal.</span>
+  </div>
+</footer>
 </body>
 </html>

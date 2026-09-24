@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jegyzetek &ndash; SZE Villamos</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">sze<span>villamos</span><span class="dot">.engineer</span></a>
+    <nav>
+      <a href="index.html">Kezdőlap</a>
+      <a href="jegyzetek.html" class="active">Jegyzetek</a>
+      <a href="index.html#rolam">Rólam</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1>Jegyzetek &amp; tananyagok</h1>
+  <p class="lead">Keress tárgy, típus vagy kulcsszó alapján. Az anyagok letölthetők, és mindig a legfrissebb változat szerepel itt.</p>
+
+  <div class="toolbar">
+    <input id="search" type="text" placeholder="Keresés cím, tárgy vagy kulcsszó szerint&hellip;">
+    <div id="filters" class="chips"></div>
+  </div>
+
+  <div id="results" class="grid"></div>
+  <p id="empty" class="empty" hidden>Nincs találat &mdash; próbálj más kulcsszót.</p>
+
+  <section class="upload-guide">
+    <h2>Hogyan kerül ide új anyag?</h2>
+    <ol>
+      <li>Töltsd le az anyagot a Moodle-ról.</li>
+      <li>Tedd be a fájlt a repó <code>files/</code> mappájába.</li>
+      <li>Adj hozzá egy sort az <code>assets/materials.json</code> fájlhoz (cím, tárgy, típus, link).</li>
+      <li>Commit &amp; push &mdash; a Pages build automatikusan frissül.</li>
+    </ol>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; 2026 szevillamos.engineer</span>
+    <span>Nem hivatalos, a Széchenyi István Egyetemtől független oldal.</span>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
